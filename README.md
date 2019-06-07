@@ -1,4 +1,4 @@
 # Freeradius2
-freeradius-psql
-
+freeradius-psql alpine based
+ 
 Docker version
