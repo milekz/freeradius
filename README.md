@@ -1,4 +1,4 @@
 # Freeradius2
-freeradius-psql
+freeradius-psql v 2.2.10
 
 Docker version
