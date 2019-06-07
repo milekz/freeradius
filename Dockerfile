@@ -3,7 +3,7 @@ FROM alpine:3.8
 ENV FREERADIUS_VERSION=2.2.10
 
 RUN apk update && apk upgrade && \
-apk add --update build-base sqlite postgresql-dev openssl libpq python2-dev perl-dev mariadb-connector-c-dev unixodbc-dev krb5-dev wxgtk2.8-dev openldap-dev gdbm-dev && \
+apk add --update build-base sqlite postgresql-dev openssl gdbm libpq python2-dev perl-dev mariadb-connector-c-dev unixodbc-dev krb5-dev wxgtk2.8-dev openldap-dev gdbm-dev && \
 wget ftp://ftp.freeradius.org/pub/freeradius/freeradius-server-$FREERADIUS_VERSION.tar.gz -O /tmp/freeradius.tar.gz && \
 tar -C /tmp -xvf /tmp/freeradius.tar.gz && \
 cd /tmp/freeradius-server-$FREERADIUS_VERSION && \
