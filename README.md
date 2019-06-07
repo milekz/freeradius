@@ -1,4 +1,4 @@
-# Freeradius2 based on Alpine Linux
-freeradius-psql v 2.2.10 
+# Freeradius3 based on Alpine Linux
+freeradius-psql-mysql, and many more v 3.0.19
 
 Docker version
