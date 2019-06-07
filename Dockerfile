@@ -1,4 +1,4 @@
-FROM alpine:3.8
+FROM alpine
 
 ENV FREERADIUS_VERSION=3.0.19
 
