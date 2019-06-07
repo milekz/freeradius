@@ -7,7 +7,7 @@ apk add --update build-base  postgresql-dev openssl && \
 wget ftp://ftp.freeradius.org/pub/freeradius/freeradius-server-$FREERADIUS_VERSION.tar.gz -O /tmp/freeradius.tar.gz && \
 tar -C /tmp -xvf /tmp/freeradius.tar.gz && \
 cd /tmp/freeradius-server-$FREERADIUS_VERSION && \
-./configure --sysconfdir=/etc/freeradius && \
+./configure --sysconfdir=/etc && \
 make && \
 make install && \
 apk del  build-base  postgresql-dev && \
